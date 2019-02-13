@@ -53,6 +53,19 @@ h1, h2, h3{
   }
 }
 
+//NavBar Toggle Color Changes
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle{
+  border: 2px solid white;
+  &:hover, &:focus{ 
+    background-color: #283E51;
+  }
+}
+
+
 //Homepage Styles
 .home-callout{
   color: white;
